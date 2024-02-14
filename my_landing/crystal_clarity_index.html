@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <!-- Adaptiveness and the framework with styles -->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/styles.css" rel="stylesheet"/>
+  <title>
+   CrystalClarity
+  </title>
+ </head>
+ <body>
+  <div class="container">
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+     CrystalClarity
+    </a>
+    <!-- Toggle button for mobile view -->
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+     <span class="navbar-toggler-icon">
+     </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+     <ul class="navbar-nav">
+      <li class="nav-item">
+       <a class="nav-link" href="#section1">
+        Reading
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#section2">
+        Sunglasses
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#section3">
+        Prescription
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#section4">
+        Fashion
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#section5">
+        Sports
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#faq">
+        FAQ
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#contacts">
+        Contacts
+       </a>
+      </li>
+     </ul>
+    </div>
+   </nav>
+   <!-- Main content section with text and pictures -->
+   <section id="section1">
+    <h2>
+     Reading Glasses
+    </h2>
+    <p>
+     Discover the latest in eyewear innovation with our reading glasses. Crafted for comfort and clear vision, our glasses are ideal for avid readers and digital workers. Choose from a range of styles to suit your taste. Our lenses reduce glare and enhance text clarity. Experience the blend of fashion and function with our collection.
+    </p>
+    <img alt="Reading Glasses" src="img/reading_glasses.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px;"/>
+    <p style="text-align: center;">
+     Feel the comfort while readind your favourite literature
+    </p>
+   </section>
+   <section id="section2">
+    <h2>
+     Sunglasses
+    </h2>
+    <p>
+     Discover our trendy sunglasses that combine fashion with UV protection. Shield your eyes from harmful rays while staying in vogue with our diverse range of sunglasses. From classic aviators to modern cat-eye frames, we have the perfect pair for every style.
+    </p>
+    <img alt="Sunglasses" src="img/sunglasses.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px;"/>
+    <p style="text-align: center;">
+     Fashionable sunglasses to elevate your style under the sun
+    </p>
+   </section>
+   <section id="section3">
+    <h2>
+     Prescription Glasses
+    </h2>
+    <p>
+     Find prescription glasses that offer both clear vision and a touch of elegance. Our precision-crafted prescription glasses cater to your individual needs, ensuring a seamless blend of functionality and fashion. See the world with clarity and confidence.
+    </p>
+    <img alt="Prescription Glasses" src="img/prescription_glasses.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px;"/>
+    <p style="text-align: center;">
+     Precision-crafted glasses for optimal vision
+    </p>
+   </section>
+   <div class="call-button">
+    <button class="btn btn-success" data-target="#callModal" data-toggle="modal">
+     Receive a Call
+    </button>
+   </div>
+   <section id="section4">
+    <h2>
+     Fashion Glasses
+    </h2>
+    <p>
+     Express yourself with our collection of trendy and stylish fashion glasses. Whether you're a trendsetter or prefer classic styles, our fashion glasses add the perfect finishing touch to your look. Stay ahead in the world of eyewear fashion with our curated selection.
+    </p>
+    <img alt="Fashion Glasses" src="img/fashion_glasses.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px;"/>
+    <p style="text-align: center;">
+     Embrace the latest trends with our chic fashion glasses
+    </p>
+   </section>
+   <section id="section5">
+    <h2>
+     Sports Glasses
+    </h2>
+    <p>
+     Equip yourself with high-performance sports glasses for an active lifestyle. Our sports glasses are designed for durability and enhanced vision, providing optimum protection during various activities. Stay focused and enjoy your favorite sports with our reliable sports eyewear.
+    </p>
+    <img alt="Sports Glasses" src="img/sports_glasses.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px;"/>
+    <p style="text-align: center;">
+     Durable sports glasses for enhanced vision and protection during activities
+    </p>
+   </section>
+   <!-- "FAQ" section with accordions -->
+   <section class="p-5" id="faq">
+    <div class="container">
+     <div class="row align-items-center">
+      <div class="col-md">
+       <h2 class="text-center">
+        FAQ
+       </h2>
+       <div class="accordion" id="faqAccordion">
+        <!-- FAQ Option 1 -->
+        <div class="card">
+         <div class="card-header" id="faqHeading1">
+          <h3 class="mb-0">
+           <button aria-controls="faqCollapse1" aria-expanded="false" class="btn btn-link" data-target="#faqCollapse1" data-toggle="collapse" type="button">
+            Q1: Can I choose what lenses to install?
+           </button>
+          </h3>
+         </div>
+         <div aria-labelledby="faqHeading1" class="collapse" data-parent="#faqAccordion" id="faqCollapse1">
+          <div class="card-body">
+           Of course. Our specialists will be happy to consult you regarding what lenses to choose.
+          </div>
+         </div>
+        </div>
+        <!-- FAQ Option 2 -->
+        <div class="card">
+         <div class="card-header" id="faqHeading2">
+          <h3 class="mb-0">
+           <button aria-controls="faqCollapse2" aria-expanded="false" class="btn btn-link" data-target="#faqCollapse2" data-toggle="collapse" type="button">
+            Q2: How can I place an order?
+           </button>
+          </h3>
+         </div>
+         <div aria-labelledby="faqHeading2" class="collapse" data-parent="#faqAccordion" id="faqCollapse2">
+          <div class="card-body">
+           To place an order, simply browse our collection, select the desired items, and follow the checkout process.
+          </div>
+         </div>
+        </div>
+        <!-- FAQ Option 3 -->
+        <div class="card">
+         <div class="card-header" id="faqHeading3">
+          <h3 class="mb-0">
+           <button aria-controls="faqCollapse3" aria-expanded="false" class="btn btn-link" data-target="#faqCollapse3" data-toggle="collapse" type="button">
+            Q3: Can I return or exchange my purchase?
+           </button>
+          </h3>
+         </div>
+         <div aria-labelledby="faqHeading3" class="collapse" data-parent="#faqAccordion" id="faqCollapse3">
+          <div class="card-body">
+           Yes, we have a return and exchange policy. Please review our terms and contact our customer support for assistance.
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </div>
+  <!-- "Contact Info" section with links to maps and mailing app-->
+  <section class="p-5" id="contacts">
+   <div class="container">
+    <div class="row align-items-center">
+     <div class="col-md">
+      <h2 class="text-center mb-4">
+       Contact Info
+      </h2>
+      <ul class="list-grouplist-group-flush lead col-md">
+       <li class="list-group-item">
+        <span class="font-weight-bold">
+         Location:
+        </span>
+        <a href="https://maps.app.goo.gl/a3nGbH1esg7UC8w98">
+         Okhtyrskyi lane, 4a, Kyiv, Ukraine
+        </a>
+       </li>
+       <li class="list-group-item">
+        <span class="font-weight-bold">
+         Phone:
+        </span>
+        +380982948499
+       </li>
+       <li class="list-group-item">
+        <span class="font-weight-bold">
+         Email:
+        </span>
+        <a href="mailto:yurii.blinov@gmail.com">
+         yurii.blinov@gmail.com
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <section class="bg-dark p-4 text-center">
+   <div class="container">
+    <p class="mb-0 text-light">
+     © 2024 Yurii Blinov. All rights reserved.
+    </p>
+   </div>
+  </section>
+  <!-- Modal for "Receive a Call" -->
+  <div aria-hidden="true" aria-labelledby="callModalLabel" class="modal fade" id="callModal" role="dialog" tabindex="-1">
+   <div class="modal-dialog" role="document">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h5 class="modal-title" id="callModalLabel">
+       Receive a Call
+      </h5>
+      <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+       <span aria-hidden="true">
+        ×
+       </span>
+      </button>
+     </div>
+     <div class="modal-body">
+      <!-- Form inside the modal -->
+      <form id="callForm">
+       <div class="form-group">
+        <label for="name">
+         Name:
+        </label>
+        <input class="form-control" id="name" type="text"/>
+       </div>
+       <div class="form-group">
+        <label for="phone">
+         Phone:
+        </label>
+        <input class="form-control" id="phone" type="text"/>
+       </div>
+      </form>
+     </div>
+     <div class="modal-footer">
+      <button class="btn btn-primary mx-auto" onclick="submitForm()" type="button">
+       Submit
+      </button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Connect scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+  </script>
+  <script src="js/extra_scripts.js">
+  </script>
+ </body>
+</html>

@@ -1,0 +1,59 @@
+		body {
+            background-color: #f8f9fa; /* Light gray background */
+			padding-top: 100px; 
+        }
+
+        img {
+            max-width: 600px;
+            margin: 10px;
+        }
+
+        /* Custom styling for section headers */
+        h2 {
+            color: #001f3f; /* Dark blue text */
+        }
+
+        /* Custom styling for navigation bar */
+        .navbar {
+            background-color: #343a40 !important; /* Dark grey background */
+            color: #ced4da !important; /* Light text color */
+        }
+		
+		.navbar-nav .nav-link {
+        color: #ced4da !important; /* Light text color */
+		}
+		
+		.navbar-toggler-icon {
+		background-color: #ced4da; /* Custom styles for the toggler icon */
+		}
+		
+		.navbar-brand {
+        color: #ced4da !important; /* Light text color */
+		}
+
+        /* Custom styling for the navigation button */
+        .navbar-btn {
+            margin-left: auto;
+			color: #ced4da !important; /* Light text color */
+        }
+		
+		/* Custom styling for "Receive a Call" button */
+        .call-button {
+            text-align: center; /* Center the button */
+            margin-top: 50px; /* Add some top margin for spacing */
+			margin-bottom: 50px;
+        }
+
+        /* Custom styling for modal */
+        .modal-content {
+            background-color: #fff; /* White background */
+            color: #495057; /* Dark text color */
+        }
+		
+		section::before {
+			content: '';
+			display: block;
+			height: 60px;      /* Height equal to the desired padding */
+			margin-top: -60px; /* Negative margin equal to the height */
+			visibility: hidden;
+		}
